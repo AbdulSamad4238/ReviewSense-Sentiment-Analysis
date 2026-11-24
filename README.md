@@ -32,4 +32,4 @@ streamlit run app.py
 ```
 
 ## Live Demo
-Add your Streamlit link here after deploying.
+https://reviewsense-sentiment-analysis-abdulsamad4238.streamlit.app
