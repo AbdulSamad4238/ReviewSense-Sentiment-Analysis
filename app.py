@@ -34,7 +34,7 @@ def fix_spelling(text):
 @st.cache_resource
 def train_model():
     """Train once, calculate all metrics, and keep everything in memory."""
-    df = pd.read_csv("reviews.csv")
+    df = pd.read_csv("reviews.zip")
     X_train, X_test, y_train, y_test = train_test_split(
         df["review"], df["sentiment"], test_size=0.2, random_state=42,
         stratify=df["sentiment"],
